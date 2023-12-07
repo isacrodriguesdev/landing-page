@@ -4,22 +4,19 @@ export default function Contract() {
   return (
     <>
       <main className="bg-white h-screen">
-        <div className="grid px-4 py-8 mx-auto xl:grid-cols lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 w-screen">
-          <div className="ml-40 mr-auto place-self-center lg:col-span-12">
+        <div className="flex items-center mx-auto max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none px-4 py-8 xl:grid-cols lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+          <div className="col-span-7 xl:ml-40 mr-auto place-self-center lg:col-span-12 py-12">
             <h1 className="text-primary max-w-2xl mb-4 xl:text-5xl  font-Orbitron tracking-tight leading-none md:text-5xl">
               Contrate talentos para sua empresa com a ajuda da IA e dos nossos
               especialistas
             </h1>
-            <p className="max-w-2xl font-sans xl:text-3xl text-gray-500 lg:mb-8 md:text-lg lg:text-xl mt-8 mb-8">
+            <p className="max-w-2xl font-sans xl:text-3xl text-gray-400 lg:mb-8 md:text-lg lg:text-xl mt-8 mb-8">
               Conecte-se com milhares de profissionais de tecnologia e conte com
               o suporte dos nossos profissionais especializados para contratar
               as pessoas adequadas para a sua equipe.
             </p>
-            <h2 className="mb-2 text-lg font-semibold text-gray-900 dark:text-white">
-              Password requirements:
-            </h2>
             <ul className="max-w-md space-y-1 text-gray-500 list-inside dark:text-gray-400">
-              <li className="flex items-center font-sans">
+              <li className="flex items-center font-sans py-2 text-2xl">
                 <svg
                   className="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0"
                   aria-hidden="true"
@@ -30,7 +27,7 @@ export default function Contract() {
                 </svg>
                 Recrutamento Assertivo
               </li>
-              <li className="flex items-center font-sans">
+              <li className="flex items-center font-sans py-2 text-2xl">
                 <svg
                   className="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0"
                   aria-hidden="true"
@@ -41,7 +38,7 @@ export default function Contract() {
                 </svg>
                 Processo ágil
               </li>
-              <li className="flex items-center font-sans">
+              <li className="flex items-center font-sans py-2 text-2xl">
                 <svg
                   className="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0"
                   aria-hidden="true"
@@ -51,7 +48,7 @@ export default function Contract() {
                   <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
                 </svg>
                 Inteligência Artificial aplicada no R&S</li>
-              <li className="flex items-center font-sans">
+              <li className="flex items-center font-sans py-2 text-2xl">
                 <svg
                   className="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0"
                   aria-hidden="true"
@@ -70,16 +67,16 @@ export default function Contract() {
             Publicar uma vaga ➔
           </a>
             </div>
-            <div className="hidden lg:mt-0 lg:col-span-5 lg:flex pt-14">
+             </div>
+            <div className="hidden col-span-5 lg:mt-0 lg:col-span-5 lg:flex pt-14 mr-40">
               <Image
                 src="/image/contract.png"
                 alt="Mulher"
-                width={700}
+                width={600}
                 height={300}
               />
             </div>
           </div>
-        </div>
       </main>
     </>
   );

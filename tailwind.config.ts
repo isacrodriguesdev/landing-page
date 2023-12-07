@@ -11,6 +11,7 @@ const config: Config = {
       colors: {
         primary: "#0b79f7",
         secundary: "#0bb2f7",
+        terciary: "#69d6ea",
         blackLight: "#161D30",
       },
       backgroundImage: {
