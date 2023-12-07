@@ -1,10 +1,11 @@
-// import Banner from '@/components/banner'
 import Contract from '@/components/contract'
 import Header from '@/components/header'
 import Banner from '@/components/banner'
 import Card from '@/components/card'
 import Carousel from '@/components/carousel'
-import { Cardo } from 'next/font/google'
+import Freela from '@/components/freela'
+import Faq from '@/components/otherComponents/faq'
+import SimpleForm from '@/components/simple-form'
 
 export default function Home() {
   return (
@@ -12,8 +13,16 @@ export default function Home() {
      <Header />
      <Banner />
      <Contract />
-     {/* <Carousel /> */}
+     <Carousel />
+     <Freela />
      <Card />
+     {/* <Peoples /> */}
+     {/* <Feedbacks /> */}
+     {/* <Info /> */}
+     {/* <NewSletter /> */}
+     <Faq />
+     <SimpleForm />
+     {/* <Footer /> */}
     </>
   )
 }

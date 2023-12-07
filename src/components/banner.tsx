@@ -63,8 +63,8 @@ export default function Banner() {
           <Image
             src="/image/MulherWorke.png"
             alt="Mulher"
-            width={1440}
-            height={1440}
+            width={750.96}
+            height={605}
           />
         </div>
       </div>
