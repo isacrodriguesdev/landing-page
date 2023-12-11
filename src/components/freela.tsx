@@ -20,7 +20,7 @@ export default function Freela() {
                 Contrate em poucos minutos um freelancer para um projeto em
                 específico para você ou sua empresa.
               </p>
-              <ul className="max-w-md space-y-1 text-gray-500 list-inside dark:text-gray-400">
+              <ul className="max-w-lg space-y-1 text-gray-500 list-inside dark:text-gray-400">
                 <li className="flex items-center font-sans py-2 text-2xl">
                   <svg
                     className="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0"

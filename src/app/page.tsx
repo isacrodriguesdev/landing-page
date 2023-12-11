@@ -6,6 +6,8 @@ import Carousel from '@/components/carousel'
 import Freela from '@/components/freela'
 import Faq from '@/components/otherComponents/faq'
 import SimpleForm from '@/components/simple-form'
+import MenageOpportunities from '@/components/manageOpportunities'
+import Peoples from '@/components/Peoples'
 
 export default function Home() {
   return (
@@ -16,10 +18,10 @@ export default function Home() {
      <Carousel />
      <Freela />
      <Card />
-     {/* <Peoples /> */}
+     <Peoples />
      {/* <Feedbacks /> */}
-     {/* <Info /> */}
-     {/* <NewSletter /> */}
+     <MenageOpportunities />
+     {/* <Newsletter /> */}
      <Faq />
      <SimpleForm />
      {/* <Footer /> */}
