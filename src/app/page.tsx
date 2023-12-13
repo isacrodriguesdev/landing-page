@@ -8,6 +8,8 @@ import Faq from '@/components/otherComponents/faq'
 import SimpleForm from '@/components/simple-form'
 import MenageOpportunities from '@/components/manageOpportunities'
 import Peoples from '@/components/Peoples'
+import NewsLetter from '@/components/otherComponents/newsLestter'
+import Footer from '@/components/otherComponents/footer'
 
 export default function Home() {
   return (
@@ -21,10 +23,10 @@ export default function Home() {
      <Peoples />
      {/* <Feedbacks /> */}
      <MenageOpportunities />
-     {/* <Newsletter /> */}
+     <NewsLetter />
      <Faq />
      <SimpleForm />
-     {/* <Footer /> */}
+     <Footer /> 
     </>
   )
 }

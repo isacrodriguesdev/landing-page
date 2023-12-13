@@ -5,12 +5,12 @@ export default function MenageOpportunities() {
     <>
       <section className="bg-white h-screen flex justify-center items-center">
         <div className="flex relative isolate overflow-hidden bg-blackLight py-24 sm:py-32 rounded-xl mx-auto max-w-7xl px-10 lg:px-8">
-          <div className="flex flex-col md:flex-row items-center justify-center py-10 px-64 gap-10">
+          <div className="bg-blackLight flex flex-col md:flex-row items-center justify-center py-10 px-64 gap-10">
             <div className="md:w-1/2">
               <Image
                 src="/image/MenageImage.png"
                 alt="Menage"
-                width={552.96}
+                width={452.96}
                 height={415.387}
               />
             </div>

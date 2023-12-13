@@ -61,6 +61,7 @@ export default function Banner() {
         </div>
         <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
           <Image
+            className="rounded-2xl"
             src="/image/MulherWorke.png"
             alt="Mulher"
             width={750.96}

@@ -6,7 +6,7 @@ export default function Contract() {
       <main className="bg-white h-screen">
         <div className="flex items-center mx-auto max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none px-4 py-8 xl:grid-cols lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div className="col-span-7 xl:ml-40 mr-auto place-self-center lg:col-span-12 py-12">
-            <h1 className="text-primary max-w-4xl mb-4 xl:text-5xl  font-Orbitron tracking-tight leading-none md:text-5xl">
+            <h1 className="text-primary max-w-2xl mb-4 xl:text-5xl font-Orbitron tracking-tight leading-none md:text-5xl">
               Contrate talentos para sua empresa com a ajuda da IA e dos nossos
               especialistas
             </h1>
@@ -68,8 +68,9 @@ export default function Contract() {
           </a>
             </div>
              </div>
-            <div className="hidden col-span-5 lg:mt-0 lg:col-span-5 lg:flex pt-14 mr-40">
+            <div className="col-span-5 lg:mt-0 lg:col-span-5 lg:flex pt-14 mr-40">
               <Image
+                className="xl:"
                 src="/image/contract.png"
                 alt="Mulher"
                 width={600}
