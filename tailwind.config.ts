@@ -13,6 +13,7 @@ const config: Config = {
         secundary: "#0bb2f7",
         terciary: "#69d6ea",
         blackLight: "#161D30",
+        dark: "#101010",
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
