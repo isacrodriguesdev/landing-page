@@ -8,7 +8,7 @@ export default function Peoples() {
         <h1 className="text-3xl py-6 text-white text-center">
           Nossa forma de cuidar das pessoas
         </h1>
-        <div className="grid-cols-1 gap-6 flex justify-center md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid-cols-1 gap-6 sm:grid lg:flex justify-center md:grid-cols-2 lg:grid-cols-4">
           <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow">
             {/* <Image
             src=""
@@ -34,7 +34,7 @@ export default function Peoples() {
               requisitos das vagas
             </p>
           </div>
-          <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow">
+          <div className="md:hidden max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow">
               <h5 className="mb-4 text-2xl font-sans font-semibold tracking-tight text-black">
                 Análise técnica e comportamental
               </h5>

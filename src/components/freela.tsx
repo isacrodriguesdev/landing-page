@@ -6,13 +6,14 @@ export default function Freela() {
       <main className="bg-white h-screen">
         <div className="flex items-center mx-auto max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none py-8 xl:grid-cols lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <Image
+            className="md:hidden sm:hidden lg:block"
             src="/image/moçaWorkeHub.png"
             alt="Mulher"
             width={1000}
             height={300}
           />
-          <div className="hidden col-span-5 lg:mt-0 lg:col-span-5 lg:flex pt-14 mr-40">
-            <div className="col-span-7 lg:ml-60 mr-auto place-self-center lg:col-span-12 py-12">
+          <div className="col-span-5 lg:mt-0 lg:col-span-5 lg:flex pt-14 lg:mr-40 md:ml-10">
+            <div className="col-span-7 lg:ml-20 xl:ml-60 mr-auto place-self-center lg:col-span-12 py-12">
               <h1 className="text-black mb-4 xl:text-5xl font-Orbitron tracking-tight leading-none md:text-5xl">
                 Está com um projeto e necessita de um freelancer?
               </h1>

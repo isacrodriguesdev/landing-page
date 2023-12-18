@@ -6,14 +6,13 @@ export default function faq() {
       <main className="bg-white">
         <div className="flex mx-auto grid-cols-1 justify-center gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none py-8 xl:grid-cols lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div className="flex justify-end">
-
             <div className="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4">
-              <div>
-              <h2 className="mb-8 text-2xl md:text-4xl md:leading-tight text-primary">
-                Perguntas Frequentes
-              </h2>
+              <div className="max-w-xl lg:ml-20">
+                <h2 className="mb-8 text-2xl md:text-4xl md:leading-tight text-primary">
+                  Perguntas Frequentes
+                </h2>
                 <details className="group">
-                  <summary className="flex cursor-pointer font-sans list-none items-center justify-between py-4 text-lg font-medium text-secondary-900">
+                  <summary className="flex font-sans cursor-pointer list-none items-center justify-between py-4 text-lg font-medium text-secondary-900">
                     O que é a WorkeHub?
                     <div className="text-secondary-500">
                       <svg
@@ -49,7 +48,12 @@ export default function faq() {
                     necessidades das vagas.
                   </div>
                 </details>
-                <Image src="/image/Line.png" alt="Menage" width={552.96} height={415.387} />
+                <Image
+                  src="/image/Line.png"
+                  alt="Menage"
+                  width={552.96}
+                  height={415.387}
+                />
                 <details className="group">
                   <summary className="flex font-sans cursor-pointer list-none items-center justify-between py-4 text-lg font-medium text-secondary-900">
                     Quais os diferenciais da WorkeHub?
@@ -74,7 +78,12 @@ export default function faq() {
                     This is the second item's accordion body.
                   </div>
                 </details>
-                <Image src="/image/Line.png" alt="Menage" width={552.96} height={415.387} />
+                <Image
+                  src="/image/Line.png"
+                  alt="Menage"
+                  width={552.96}
+                  height={415.387}
+                />
                 <details className="group">
                   <summary className="flex font-sans cursor-pointer list-none items-center justify-between py-4 text-lg font-medium text-secondary-900">
                     Vocês usam a IA para contratar profissionais?
@@ -99,7 +108,12 @@ export default function faq() {
                     This is the second item's accordion body.
                   </div>
                 </details>
-                <Image src="/image/Line.png" alt="Menage" width={552.96} height={415.387} />
+                <Image
+                  src="/image/Line.png"
+                  alt="Menage"
+                  width={552.96}
+                  height={415.387}
+                />
                 <details className="group">
                   <summary className="flex font-sans cursor-pointer list-none items-center justify-between py-4 text-lg font-medium text-secondary-900">
                     Consigo contratar freelancers?
@@ -124,7 +138,12 @@ export default function faq() {
                     This is the second item's accordion body.
                   </div>
                 </details>
-                <Image src="/image/Line.png" alt="Menage" width={552.96} height={415.387} />
+                <Image
+                  src="/image/Line.png"
+                  alt="Menage"
+                  width={552.96}
+                  height={415.387}
+                />
                 <details className="group">
                   <summary className="flex font-sans cursor-pointer list-none items-center justify-between py-4 text-lg font-medium text-secondary-900">
                     Qual o prazo para contratar um profissional?
@@ -149,7 +168,12 @@ export default function faq() {
                     This is the second item's accordion body.
                   </div>
                 </details>
-                <Image src="/image/Line.png" alt="Menage" width={552.96} height={415.387} />
+                <Image
+                  src="/image/Line.png"
+                  alt="Menage"
+                  width={552.96}
+                  height={415.387}
+                />
                 <details className="group">
                   <summary className="flex font-sans cursor-pointer list-none items-center justify-between py-4 text-lg font-medium text-secondary-900">
                     Quais perfis encontro na WorkeHub?
@@ -174,7 +198,12 @@ export default function faq() {
                     This is the second item's accordion body.
                   </div>
                 </details>
-                <Image src="/image/Line.png" alt="Menage" width={552.96} height={415.387} />
+                <Image
+                  src="/image/Line.png"
+                  alt="Menage"
+                  width={552.96}
+                  height={415.387}
+                />
                 <details className="group">
                   <summary className="flex font-sans cursor-pointer list-none items-center justify-between py-4 text-lg font-medium text-secondary-900">
                     É disponibilizado testes para os candidatos?
@@ -199,7 +228,12 @@ export default function faq() {
                     This is the second item's accordion body.
                   </div>
                 </details>
-                <Image src="/image/Line.png" alt="Menage" width={552.96} height={415.387} />
+                <Image
+                  src="/image/Line.png"
+                  alt="Menage"
+                  width={552.96}
+                  height={415.387}
+                />
                 <details className="group">
                   <summary className="flex font-sans cursor-pointer list-none items-center justify-between py-4 text-lg font-medium text-secondary-900">
                     Quem contrata? WorkeHub ou a gente?
@@ -224,15 +258,20 @@ export default function faq() {
                     This is the second item's accordion body.
                   </div>
                 </details>
-                <Image src="/image/Line.png" alt="Menage" width={552.96} height={415.387} />
-              </div>
-              <div className="">
                 <Image
-                  className="justify-end ml-14"
+                  src="/image/Line.png"
+                  alt="Menage"
+                  width={552.96}
+                  height={415.387}
+                />
+              </div>
+              <div className="max-w-4xl">
+                <Image
+                  className="ml-14"
                   src="/image/work.png"
                   alt="Descrição da imagem"
-                  width={529.61}
-                  height={422}
+                  width={629.61}
+                  height={629.61}
                 />
               </div>
             </div>

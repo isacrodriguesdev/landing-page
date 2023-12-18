@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function SimpleForm() {
   return (
     <>
-      <main className="bg-blackLight  relative isolate overflow-hidden mt-14">
+      <main className="bg-blackLight relative isolate overflow-hidden mt-14">
         <div
           className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
           aria-hidden="true"

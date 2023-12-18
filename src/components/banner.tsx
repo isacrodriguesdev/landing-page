@@ -27,12 +27,12 @@ export default function Banner() {
           }}
         />
       </div>
-      <div className="grid py-8 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-        <div className="mr-auto place-self-center lg:col-span-7">
-          <h1 className="md:ml-5 lg:ml-5 text-white mb-4 font-Orbitron tracking-tight leading-none xl:text-5xl md:text-2xl">
+      <div className="grid py-8 lg:gap-8 xl:gap-0 lg:py-20 lg:grid-cols-12">
+        <div className="max-w-3xl lg:ml-20 mr-auto place-self-center lg:col-span-7">
+          <h1 className="md:ml-5 lg:ml-5 text-white mb-4 font-Orbitron tracking-tight leading-none lg:text-5xl md:text-3xl">
             Contrate os melhores talentos de tecnologia!
           </h1>
-          <p className="md:ml-5 lg:ml-5 font-sans xl:text-3xl text-gray-500 lg:mb-8 md:text-lg lg:text-xl mt-8 mb-8">
+          <p className="md:ml-5 lg:ml-5 font-sans xl:text-3xl text-gray-500 lg:mb-8 md:text-md lg:text-md mt-8 mb-8">
             Encontre os profissionais preparados para os desafios da sua empresa
             ou projeto de forma simples e eficiente!
           </p>
@@ -59,7 +59,7 @@ export default function Banner() {
             </a>
           </div>
         </div>
-        <div className="hidden lg:mt-0 lg:col-span-5 lg:flex justify-end">
+        <div className="hidden lg:col-span-5 lg:flex justify-end">
           <Image
             className=""
             src="/image/MulherWorke.png"

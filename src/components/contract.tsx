@@ -3,10 +3,10 @@ import Image from "next/image";
 export default function Contract() {
   return (
     <>
-      <main className="bg-white h-screen">
-        <div className="flex items-center justify-center">
-          <div className="col-span-6 xl:place-items-center lg:col-span-12 py-12 lg:resize-x	">
-            <h1 className="text-primary max-w-2xl lg:ml-10 mb-4 xl:text-5xl font-Orbitron tracking-tight leading-none md:text-5xl">
+      <main className="bg-white h-screen items-center justify-center">
+        <div className="flex items-center justify-center lg:mt-20">
+          <div className="col-span-6 xl:place-items-center lg:col-span-12 py-12 lg:resize-x md:ml-10">
+            <h1 className="text-primary max-w-2xl lg:ml-10 mb-4 xl:text-5xl font-Orbitron tracking-tight leading-none md:text-4xl">
               Contrate talentos para sua empresa com a ajuda da IA e dos nossos
               especialistas
             </h1>
@@ -70,7 +70,7 @@ export default function Contract() {
              </div>
             <div className="col-span-5 lg:col-span-5 2xl:mr-40">
               <Image
-                className="lg:object-contain"
+                className="lg:object-contain md:hidden sm:hidden lg:block"
                 src="/image/contract.png"
                 alt="Mulher"
                 width={600}

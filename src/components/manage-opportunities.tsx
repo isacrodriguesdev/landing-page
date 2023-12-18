@@ -3,12 +3,12 @@ import Image from "next/image";
 export default function MenageOpportunities() {
   return (
     <>
-            <section className="bg-white h-screen flex justify-center items-center">
+      <section className="bg-white h-screen flex justify-center items-center">
         <div className="flex relative isolate overflow-hidden bg-blackLight py-24 sm:py-32 rounded-xl mx-auto max-w-7xl px-10 lg:px-8">
           <div className="bg-blackLight flex flex-col md:flex-row items-center px-32 gap-10">
             <div className="">
               <Image
-                className="rounded-sm"
+                className="rounded-sm md:hidden sm:hidden lg:block"
                 src="/image/MenageImage.png"
                 alt="Menage"
                 width={632.96}
@@ -21,24 +21,45 @@ export default function MenageOpportunities() {
               </h1>
               <ul className="text-white text-md mb-6 pl-6">
                 <li className="mb-2">
-                  <p>Cadastre uma vaga de forma simples</p>
-                  <Image src="/image/Line.png" alt="Menage" width={552.96} height={415.387} />
+                  <p className="mb-4">Cadastre uma vaga de forma simples</p>
+                  <Image
+                    src="/image/Line.png"
+                    alt="Menage"
+                    width={552.96}
+                    height={415.387}
+                  />
                 </li>
                 <li className="mb-2">
-                  <p>Receba candidatos qualificados</p>
-                  <Image src="/image/Line.png" alt="Menage" width={552.96} height={415.387} />
-                </li>
-                
-                <li className="mb-2">
-                  <p>Gerencie e centralize o processo de R&S</p>
-                  <Image src="/image/Line.png" alt="Menage" width={552.96} height={415.387} />
+                  <p className="mb-4">Receba candidatos qualificados</p>
+                  <Image
+                    src="/image/Line.png"
+                    alt="Menage"
+                    width={552.96}
+                    height={415.387}
+                  />
                 </li>
 
                 <li className="mb-2">
-                  <p>Receba consultoria do nosso time</p>
-                  <Image src="/image/Line.png" alt="Menage" width={552.96} height={415.387} />
+                  <p className="mb-4">
+                    Gerencie e centralize o processo de R&S
+                  </p>
+                  <Image
+                    src="/image/Line.png"
+                    alt="Menage"
+                    width={552.96}
+                    height={415.387}
+                  />
                 </li>
-                
+
+                <li className="mb-2">
+                  <p className="mb-4">Receba consultoria do nosso time</p>
+                  <Image
+                    src="/image/Line.png"
+                    alt="Menage"
+                    width={552.96}
+                    height={415.387}
+                  />
+                </li>
               </ul>
               <button
                 type="button"

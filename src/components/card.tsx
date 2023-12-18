@@ -1,9 +1,9 @@
-export default function hireWrong() {
+export default function Card() {
   return (
     <>
       <section className="bg-white h-screen flex justify-center items-center">
-        <div className="flex relative isolate overflow-hidden bg-gradient-to-r from-purple-700 via-purple-500 to-pink-500 py-24 sm:py-32 rounded-xl mx-auto max-w-7xl px-10 lg:px-8">
-          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="sm:grid lg:flex relative isolate overflow-hidden bg-gradient-to-r from-purple-700 via-purple-500 to-pink-500 py-24 sm:py-32 rounded-xl mx-auto max-w-7xl px-10 lg:px-8">
+          <div className="mx-auto max-w-7xl px-6 lg:px-8 justify-center place-self-center">
             <div className="mx-auto max-w-2xl lg:mx-0">
               <h2 className="text-4xl  tracking-tight text-white sm:text-6xl">
                 Por que escolher a WorkeHub?
