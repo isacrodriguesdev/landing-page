@@ -22,7 +22,16 @@ const config: Config = {
         'saving': "url('/image/saving.png')",
       },
     },
-    screens: {
+    screens: { 
+      'xsm': '320px',
+      // => @media (min-width: 640px) { ... }
+      
+      '2sm': '375px',
+      // => @media (min-width: 640px) { ... }
+
+      '3sm': '425px',
+      // => @media (min-width: 640px) { ... }
+      
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
 

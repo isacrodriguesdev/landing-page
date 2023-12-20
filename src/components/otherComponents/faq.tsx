@@ -7,7 +7,7 @@ export default function faq() {
         <div className="flex mx-auto grid-cols-1 justify-center gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none py-8 xl:grid-cols lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div className="flex justify-end">
             <div className="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4">
-              <div className="max-w-xl lg:ml-20">
+              <div className="3sm:ml-2 md:ml-0 max-w-xl lg:ml-20">
                 <h2 className="mb-8 text-2xl md:text-4xl md:leading-tight text-primary">
                   Perguntas Frequentes
                 </h2>
@@ -267,7 +267,7 @@ export default function faq() {
               </div>
               <div className="max-w-4xl">
                 <Image
-                  className="ml-14"
+                  className="xsm:hidden lg:block ml-14"
                   src="/image/work.png"
                   alt="Descrição da imagem"
                   width={629.61}
