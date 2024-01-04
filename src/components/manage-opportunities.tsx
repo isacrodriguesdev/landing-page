@@ -4,7 +4,7 @@ export default function MenageOpportunities() {
   return (
     <>
       <section className="bg-white h-screen flex justify-center items-center">
-        <div className="flex relative isolate overflow-hidden bg-blackLight py-24 sm:py-32 rounded-xl mx-auto max-w-7xl px-10 lg:px-8">
+        <div className="flex relative isolate overflow-hidden bg-blackLight py-24 sm:py-32 rounded-xl 3sm:rounded-9xl mx-auto max-w-7xl px-10 lg:px-8">
           <div className="bg-blackLight flex flex-col md:flex-row items-center md:px-32 lg:gap-10">
             <div>
               <Image
@@ -21,7 +21,7 @@ export default function MenageOpportunities() {
               </h1>
               <ul className="text-white text-md mb-6">
                 <li className="mb-2">
-                  <p className="mb-4">Cadastre uma vaga de forma simples</p>
+                  <p className="mb-2">Cadastre uma vaga de forma simples</p>
                   <Image
                     src="/image/Line.png"
                     alt="Menage"
@@ -30,7 +30,7 @@ export default function MenageOpportunities() {
                   />
                 </li>
                 <li className="mb-2">
-                  <p className="mb-4">Receba candidatos qualificados</p>
+                  <p className="mb-2">Receba candidatos qualificados</p>
                   <Image
                     src="/image/Line.png"
                     alt="Menage"
@@ -40,7 +40,7 @@ export default function MenageOpportunities() {
                 </li>
 
                 <li className="mb-2">
-                  <p className="mb-4">
+                  <p className="mb-2">
                     Gerencie e centralize o processo de R&S
                   </p>
                   <Image
@@ -52,7 +52,7 @@ export default function MenageOpportunities() {
                 </li>
 
                 <li className="mb-2">
-                  <p className="mb-4">Receba consultoria do nosso time</p>
+                  <p className="mb-2">Receba consultoria do nosso time</p>
                   <Image
                     src="/image/Line.png"
                     alt="Menage"

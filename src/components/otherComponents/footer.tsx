@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { useEffect } from "react";
 
 export default function Footer() {
   return (
@@ -12,10 +13,10 @@ export default function Footer() {
               aria-label="Brand"
             >
               <Image
-               src="/image/LogoBranco.png"
-               width={201.65}
-               height={42.91}
-               alt="Picture of the author"
+                src="/image/LogoBranco.png"
+                width={201.65}
+                height={42.91}
+                alt="Picture of the author"
               />
             </a>
           </div>
@@ -89,7 +90,7 @@ export default function Footer() {
                   href="#"
                 >
                   Careers
-                </a>{" "}
+                </a>
                 <span className="inline text-blue-600 dark:text-blue-500">
                   — We're hiring
                 </span>
@@ -198,7 +199,7 @@ export default function Footer() {
                   href="#"
                 >
                   GitHub
-                </a>{" "}
+                </a>
                 <span className="inline text-blue-600 dark:text-blue-500">
                   — New
                 </span>
@@ -232,7 +233,7 @@ export default function Footer() {
 
         <div className="pt-5 mt-5 border-t border-gray-200 dark:border-gray-700">
           <div className="sm:flex sm:justify-between sm:items-center">
-            <div className="flex items-center gap-x-3">
+            <div className="flex items-center justify-center">
               <div className="hs-dropdown relative inline-flex [--placement:top-left]">
                 {/* <button id="footer-language-dropdown" type="button" className="hs-dropdown-toggle py-2 px-3 inline-flex items-center gap-x-2 text-sm rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
             <svg className="w-3 h-3 rounded-full" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-us1" viewBox="0 0 512 512">
@@ -298,10 +299,15 @@ export default function Footer() {
                   href="#"
                   aria-label="Brand"
                 >
-                  Brand
+                  <Image
+                    src="/image/LogoBranco.png"
+                    width={201.65}
+                    height={42.91}
+                    alt="Picture of the author"
+                  />
                 </a>
                 <p className="mt-1 text-xs sm:text-sm text-gray-600 dark:text-gray-400">
-                  © 2022 Preline.
+                  ©2024 WorkeHub.
                 </p>
               </div>
 

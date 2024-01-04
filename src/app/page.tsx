@@ -23,7 +23,7 @@ export default function Home() {
      <Peoples />
      {/* <Feedbacks /> */}
      <MenageOpportunities />
-     <NewsLetter />
+     {/* <NewsLetter /> */}
      <Faq />
      <SimpleForm />
      <Footer /> 

@@ -4,7 +4,7 @@ export default function Freela() {
   return (
     <>
       <main className="bg-white sm:h-fit 3sm:h-screen lg:h-screen flex justify-center">
-        <div className="flex items-center mx-auto max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none py-8 xl:grid-cols lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+        <div className="flex items-center mx-auto max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none py-8 xl:grid-cols lg:gap-8 xl:gap-0 lg:py-16 2sm:h-fit 3sm:h-fit lg:grid-cols-12">
           <Image
             className="xsm:hidden lg:block"
             src="/image/moçaWorkeHub.png"
@@ -12,7 +12,7 @@ export default function Freela() {
             width={1000}
             height={300}
           />
-          <div className="col-span-5 lg:mt-0 lg:col-span-5 lg:flex md:pt-14 lg:ml-0 h-screen">
+          <div className="col-span-5 lg:mt-0 lg:col-span-5 lg:flex md:pt-14 lg:ml-0 lg:h-screen sm:h-fit">
             <div className="2sm:ml-4 xsm:ml-4 col-span-7 lg:ml-20 xl:ml-60 mr-auto place-self-center lg:col-span-12 3sm:ml-4 md:ml-0">
               <h1 className="2sm:text-2xl xsm:text-xl text-black mb-4 xl:text-5xl 3sm:text-3xl font-Orbitron tracking-tight leading-none md:text-5xl">
                 Está com um projeto e necessita de um freelancer?
