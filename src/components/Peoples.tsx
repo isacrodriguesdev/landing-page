@@ -9,7 +9,7 @@ export default function Peoples() {
             Nossa forma de cuidar das pessoas
           </h1>
           <div className="flex justify-center 3sm:grid sm:flex gap-4">
-            <div className="3sm:max-w-sm max-w-sm 3sm:p-2 p-6 bg-white border border-gray-200 rounded-lg shadow">
+            <div className="3sm:max-w-sm max-w-sm 3sm:p-2  lg:p-6 bg-white border border-gray-200 rounded-lg shadow">
               {/* Image
             src=""
             alt=""
@@ -25,7 +25,7 @@ export default function Peoples() {
                 mais compatíveis com a vaga ofertada
               </p>
             </div>
-            <div className="3sm:max-w-sm max-w-sm 3sm:p-2 p-6 bg-white border border-gray-200 rounded-lg shadow">
+            <div className="3sm:max-w-sm max-w-sm 3sm:p-2  lg:p-6 bg-white border border-gray-200 rounded-lg shadow">
               <h5 className="3sm:text-xl mb-4 text-2xl font-sans font-semibold tracking-tight text-black">
                 Avaliação dos projetos
               </h5>
@@ -34,7 +34,7 @@ export default function Peoples() {
                 requisitos das vagas
               </p>
             </div>
-            <div className="3sm:block xsm:hidden lg:block max-w-sm 3sm:p-2 p-6 bg-white border border-gray-200 rounded-lg shadow">
+            <div className="3sm:block xsm:hidden lg:block max-w-sm 3sm:p-2  lg:p-6 bg-white border border-gray-200 rounded-lg shadow">
               <h5 className="3sm:text-xl mb-4 text-2xl font-sans font-semibold tracking-tight text-black">
                 Análise técnica e comportamental
               </h5>
@@ -43,7 +43,7 @@ export default function Peoples() {
                 assegurar as competências necessárias
               </p>
             </div>
-            <div className="3sm:block xsm:hidden lg:block max-w-sm 3sm:p-2 p-6 bg-white border border-gray-200 rounded-lg shadow">
+            <div className="3sm:block xsm:hidden lg:block max-w-sm 3sm:p-2  lg:p-6 bg-white border border-gray-200 rounded-lg shadow">
               <h5 className="3sm:text-xl mb-4 text-2xl font-sans font-semibold tracking-tight text-black">
                 Entrevista técnica e comportamental
               </h5>

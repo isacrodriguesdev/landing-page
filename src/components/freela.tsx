@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function Freela() {
   return (
     <>
-      <main className="bg-white sm:h-fit 3sm:h-screen lg:h-screen flex justify-center">
-        <div className="flex items-center mx-auto max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none py-8 xl:grid-cols lg:gap-8 xl:gap-0 lg:py-16 2sm:h-fit 3sm:h-fit lg:grid-cols-12">
+      <main className="bg-white lg:b-40 item-center sm:h-fit 3sm:h-screen lg:mb-20 lg:h-screen flex justify-center">
+        <div className="flex items-center lg:mb-40  mx-auto max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none py-8 xl:grid-cols lg:gap-8 xl:gap-0 lg:py-16 2sm:h-fit 3sm:h-fit lg:grid-cols-12">
           <Image
             className="xsm:hidden lg:block"
             src="/image/moçaWorkeHub.png"
@@ -14,17 +14,17 @@ export default function Freela() {
           />
           <div className="col-span-5 lg:mt-0 lg:col-span-5 lg:flex md:pt-14 lg:ml-0 lg:h-screen sm:h-fit">
             <div className="2sm:ml-4 xsm:ml-4 col-span-7 lg:ml-20 xl:ml-60 mr-auto place-self-center lg:col-span-12 3sm:ml-4 md:ml-0">
-              <h1 className="2sm:text-2xl xsm:text-xl text-black mb-4 xl:text-5xl 3sm:text-3xl font-Orbitron tracking-tight leading-none md:text-5xl">
+              <h1 className="2sm:text-2xl xsm:text-xl text-primary font-semibold mb-4 xl:text-5xl 3sm:text-3xl font-Orbitron tracking-tight leading-none md:text-5xl">
                 Está com um projeto e necessita de um freelancer?
               </h1>
-              <p className="max-w-2xl font-sans 3sm:text-xl xl:text-3xl text-gray-400 lg:mb-8 md:text-lg lg:text-xl mt-8 mb-8">
+              <p className="max-w-2xl font-sans 3sm:text-xl xl:text-xl text-gray-400 lg:mb-8 md:text-lg lg:text-xl mt-8 mb-8">
                 Contrate em poucos minutos um freelancer para um projeto em
                 específico para você ou sua empresa.
               </p>
               <ul className="max-w-lg space-y-1 text-gray-500 list-inside dark:text-gray-400">
-                <li className="flex items-center font-sans py-2 md:text-2xl 3sm:text-lg">
+                <li className="flex items-center xl:text-xl font-sans py-2 md:text-2xl 3sm:text-lg">
                   <svg
-                    className="w-3.5 h-3.5 me-2 text-black dark:text-black flex-shrink-0"
+                    className="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0"
                     aria-hidden="true"
                     fill="currentColor"
                     viewBox="0 0 20 20"
@@ -33,9 +33,9 @@ export default function Freela() {
                   </svg>
                   Receba propostas
                 </li>
-                <li className="flex items-center font-sans py-2 md:text-2xl 3sm:text-lg">
+                <li className="flex items-center xl:text-xl font-sans py-2 md:text-2xl 3sm:text-lg">
                   <svg
-                    className="w-3.5 h-3.5 me-2 text-black dark:text-black flex-shrink-0"
+                    className="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0"
                     aria-hidden="true"
                     fill="currentColor"
                     viewBox="0 0 20 20"
@@ -44,9 +44,9 @@ export default function Freela() {
                   </svg>
                   Escolha um freelancer
                 </li>
-                <li className="flex items-center font-sans py-2 md:text-2xl 3sm:text-lg">
+                <li className="flex items-center xl:text-xl font-sans py-2 md:text-2xl 3sm:text-lg">
                   <svg
-                    className="w-3.5 h-3.5 me-2 text-black dark:text-black flex-shrink-0"
+                    className="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0"
                     aria-hidden="true"
                     fill="currentColor"
                     viewBox="0 0 20 20"
@@ -55,9 +55,9 @@ export default function Freela() {
                   </svg>
                   Negocie com os profissionais
                 </li>
-                <li className="flex items-center font-sans py-2 md:text-2xl 3sm:text-lg">
+                <li className="flex items-center xl:text-xl font-sans py-2 md:text-2xl 3sm:text-lg">
                   <svg
-                    className="w-3.5 h-3.5 me-2 text-black dark:text-black flex-shrink-0"
+                    className="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0"
                     aria-hidden="true"
                     fill="currentColor"
                     viewBox="0 0 20 20"

@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function SimpleForm() {
   return (
     <>
-      <main className="bg-blackLight relative isolate overflow-hidden mt-14">
+      <main className="bg-blackLight relative isolate overflow-hidden mt-14 h-fit">
         <div
           className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
           aria-hidden="true"
@@ -17,7 +17,7 @@ export default function SimpleForm() {
           />
         </div>
         <div
-          className="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu"
+          className="absolute p-10 -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu"
           aria-hidden="true"
         >
           <div
@@ -28,8 +28,8 @@ export default function SimpleForm() {
             }}
           />
         </div>
-        <div className="grid mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12">
-          <div className="md:mb-10 lg:mb-0 lg:mt-0 lg:col-span-5 lg:flex">
+        <div className="flex h-1/5 lg:gap-8 xl:gap-0 lg:grid-cols-12">
+          <div className="h-min md:mb-10 lg:mb-0 lg:mt-0 lg:col-span-5 lg:flex">
             <Image
               className="rotate-4 xsm:hidden lg:block"
               src="/image/women.png"
@@ -38,7 +38,7 @@ export default function SimpleForm() {
               height={1196.28}
             />
           </div>
-          <div className="lg:mb-0 xl:ml-40 place-self-center py-18 w-fit">
+          <div className="lg:mb-0 place-self-center py-18 w-fit">
             <h1 className="text-white xsm:text-center mb-4 xsm:pt-10 lg:pt-0 2sm:text-center 3sm:text-xl 3sm:text-center md:text-start font-Orbitron tracking-tight leading-none xl:text-5xl md:text-3xl">
               Contrate de forma simples e prática
             </h1>

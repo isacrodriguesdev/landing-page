@@ -1,9 +1,8 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import { Orbitron } from 'next/font/google'
+import { Montserrat } from 'next/font/google'
 import './globals.css'
 
-const orbitron = Orbitron({ subsets: ['latin'] })
+const font = Montserrat({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'WorkeHub',
@@ -17,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={orbitron.className}>{children}</body>
+      <body className={font.className}>{children}</body>
     </html>
   )
 }

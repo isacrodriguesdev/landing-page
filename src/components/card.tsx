@@ -1,8 +1,8 @@
 export default function Card() {
   return (
     <>
-      <section className="bg-white h-screen flex justify-center items-center">
-        <div className="sm:grid lg:flex relative isolate overflow-hidden xsm:py-10 2sm:py-10 bg-gradient-to-r from-purple-700 via-purple-500 to-pink-500 md:py-24 sm:py-32 rounded-xl mx-auto xl:max-w-7xl lg:max-w-5xl px-10 lg:px-8">
+      <section className="bg-black h-fit flex justify-center items-center xsm:pt-40 2sm:pt-0">
+        <div className="sm:grid lg:flex relative isolate overflow-hidden pt-20 bg-black rounded-xl mx-auto xl:max-w-7xl lg:max-w-5xl px-10 lg:px-8">
           <div className="mx-auto max-w-7xl px-6 lg:px-8 justify-center place-self-center">
             <div className="mx-auto max-w-4xl lg:mx-0">
               <h2 className="text-4xl tracking-tight sm:text-center 3sm:text-center md:text-start lg:text-start text-white sm:text-6xl">
@@ -88,7 +88,7 @@ export default function Card() {
               <a href="" className="flex justify-center items-center">
                 <button
                   type="button"
-                  className="xsm:block lg:hidden whitespace-nowrap mt-8 py-4 px-4 inline-flex items-center text-md rounded-lg bg-white text-primary"
+                  className="xsm:block lg:hidden bg-primary  mt-8 py-4 px-4 inline-flex items-center text-md rounded-lg"
                 >
                   Experimente Grátis
                 </button>
