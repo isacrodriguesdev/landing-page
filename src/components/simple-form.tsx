@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function SimpleForm() {
   return (
     <>
-      <main className="bg-blackLight relative isolate overflow-hidden mt-14 h-fit">
+      <section className="bg-gradient-to-tr from-primary to-secundary relative isolate overflow-hidden h-fit">
         <div
           className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
           aria-hidden="true"
@@ -28,21 +28,21 @@ export default function SimpleForm() {
             }}
           />
         </div>
-        <div className="flex h-1/5 lg:gap-8 xl:gap-0 lg:grid-cols-12">
-          <div className="h-min md:mb-10 lg:mb-0 lg:mt-0 lg:col-span-5 lg:flex">
+        <div className="flex lg:gap-8 xl:gap-0 lg:grid-cols-12">
+          <div className=" md:mb-10 lg:mb-0 lg:mt-0 lg:col-span-5 lg:flex">
             <Image
               className="rotate-4 xsm:hidden lg:block"
               src="/image/women.png"
               alt="Mulher"
-              width={1076.41}
-              height={1196.28}
+              width={876.41}
+              height={996.28}
             />
           </div>
-          <div className="lg:mb-0 place-self-center py-18 w-fit">
-            <h1 className="text-white xsm:text-center mb-4 xsm:pt-10 lg:pt-0 2sm:text-center 3sm:text-xl 3sm:text-center md:text-start font-Orbitron tracking-tight leading-none xl:text-5xl md:text-3xl">
+          <div className="lg:mb-0 place-self-center py-18 w-fit max-w-xl lg:ml-20">
+            <h3 className="text-white xsm:text-center mb-4 xsm:pt-10 lg:pt-0 2sm:text-center 3sm:text-xl 3sm:text-center md:text-start tracking-tight leading-none xl:text-6xl md:text-3xl">
               Contrate de forma simples e prática
-            </h1>
-            <p className="xsm:text-center font-sans 2sm:text-center xl:text-2xl text-gray-400 lg:mb-8 md:text-lg 3sm:text-center md:text-start lg:text-xl my-8">
+            </h3>
+            <p className="xsm:text-center 2sm:text-center xl:text-2xl text-gray-400 lg:mb-8 md:text-2xl 3sm:text-center md:text-start lg:text-xl my-8">
               Inicie hoje mesmo, de forma gratuita, anunciando uma vaga em nossa
               plataforma
             </p>
@@ -62,7 +62,7 @@ export default function SimpleForm() {
             </div>
           </div>
         </div>
-      </main>
+      </section>
     </>
   );
 }

@@ -3,16 +3,21 @@ import Image from "next/image";
 export default function faq() {
   return (
     <>
-      <main className="bg-white flex justify-center aligm-center">
+      <section className="flex bg-white justify-center aligm-center">
         <div className="flex mx-auto grid-cols-1 justify-center sm:gap-y-20 lg:mx-0 lg:max-w-none py-8 xl:grid-cols lg:gap-8 xl:gap-0 lg:grid-cols-12">
           <div className="flex justify-end">
             <div className="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4">
-              <div className="lg:mt-20 3sm:ml-2 md:ml-0 max-w-xl lg:ml-20">
-                <h2 className="mb-8 text-2xl md:text-4xl md:leading-tight text-primary">
-                  Perguntas Frequentes
-                </h2>
+              <div className="lg:mt-20 3sm:ml-2 space-y-2 md:ml-0 h-fit p-8 max-w-xl lg:ml-20 rounded-md bg-white">
+                <div className="mb-8 text-center">
+                  <h3 className="text-2xl md:text-4xl md:leading-tight text-black font-semibold mb-1">
+                    Perguntas Frequentes
+                  </h3>
+                  <p className="font-medium text-gray-600">
+                    Encontre as respostas para todas as suas dúvidas
+                  </p>
+                </div>
                 <details className="group">
-                  <summary className="flex font-sans cursor-pointer list-none items-center justify-between py-4 text-lg font-medium text-secondary-900">
+                  <summary className="flex font-sans bg-gray-100 cursor-pointer list-none font-semibold items-center rounded-md justify-between p-4 text-md text-secondary-900">
                     O que é a WorkeHub?
                     <div className="text-secondary-500">
                       <svg
@@ -31,31 +36,14 @@ export default function faq() {
                       </svg>
                     </div>
                   </summary>
-                  <div className="pb-4 font-sans text-secondary-500">
+                  <div className="p-4 font-sans text-secondary-500">
                     A WorkeHub é uma plataforma especializada em conectar
                     profissionais de tecnologia com empresas que buscam suas
-                    habilidades específicas. Nossa missão é facilitar a busca
-                    por talentos qualificados e oferecer aos desenvolvedores
-                    acesso a oportunidades alinhadas com suas competências e
-                    interesses. Atuamos como um intermediário confiável,
-                    agilizando o processo de contratação no setor de tecnologia,
-                    tanto para projetos de curto prazo quanto para posições
-                    permanentes, tornando a WorkeHub uma solução eficiente para
-                    empresas e profissionais da área. Empregamos avançadas
-                    técnicas de Inteligência Artificial para realizar uma
-                    triagem eficiente e precisa de candidatos, garantindo a
-                    melhor correspondência entre competencias dos candidados e
-                    necessidades das vagas.
+                    habilidades específicas.
                   </div>
                 </details>
-                <Image
-                  src="/image/Line.png"
-                  alt="Menage"
-                  width={552.96}
-                  height={415.387}
-                />
                 <details className="group">
-                  <summary className="flex font-sans cursor-pointer list-none items-center justify-between py-4 text-lg font-medium text-secondary-900">
+                  <summary className="flex font-sans bg-gray-100 cursor-pointer list-none font-semibold items-center rounded-md justify-between p-4 text-md text-secondary-900">
                     Quais os diferenciais da WorkeHub?
                     <div className="text-secondary-500">
                       <svg
@@ -74,18 +62,12 @@ export default function faq() {
                       </svg>
                     </div>
                   </summary>
-                  <div className="pb-4 font-sans text-secondary-500">
+                  <div className="p-4 font-sans text-secondary-500">
                     This is the second item's accordion body.
                   </div>
                 </details>
-                <Image
-                  src="/image/Line.png"
-                  alt="Menage"
-                  width={552.96}
-                  height={415.387}
-                />
                 <details className="group">
-                  <summary className="flex font-sans cursor-pointer list-none items-center justify-between py-4 text-lg font-medium text-secondary-900">
+                  <summary className="flex font-sans bg-gray-100 cursor-pointer list-none font-semibold items-center rounded-md justify-between p-4 text-md text-secondary-900">
                     Consigo contratar Free-lancers diretamente?
                     <div className="text-secondary-500">
                       <svg
@@ -104,18 +86,12 @@ export default function faq() {
                       </svg>
                     </div>
                   </summary>
-                  <div className="pb-4 font-sans text-secondary-500">
+                  <div className="p-4 font-sans text-secondary-500">
                     This is the second item's accordion body.
                   </div>
                 </details>
-                <Image
-                  src="/image/Line.png"
-                  alt="Menage"
-                  width={552.96}
-                  height={415.387}
-                />
                 <details className="group">
-                  <summary className="flex font-sans cursor-pointer list-none items-center justify-between py-4 text-lg font-medium text-secondary-900">
+                  <summary className="flex font-sans bg-gray-100 cursor-pointer list-none font-semibold items-center rounded-md justify-between p-4 text-md text-secondary-900">
                     Qual o prazo para contratar um Free-lancer?
                     <div className="text-secondary-500">
                       <svg
@@ -134,18 +110,12 @@ export default function faq() {
                       </svg>
                     </div>
                   </summary>
-                  <div className="pb-4 font-sans text-secondary-500">
+                  <div className="p-4 font-sans text-secondary-500">
                     This is the second item's accordion body.
                   </div>
                 </details>
-                <Image
-                  src="/image/Line.png"
-                  alt="Menage"
-                  width={552.96}
-                  height={415.387}
-                />
                 <details className="group">
-                  <summary className="flex font-sans cursor-pointer list-none items-center justify-between py-4 text-lg font-medium text-secondary-900">
+                  <summary className="flex font-sans bg-gray-100 cursor-pointer list-none font-semibold items-center rounded-md justify-between p-4 text-md text-secondary-900">
                     Quais perfis encontro na WorkeHub?
                     <div className="text-secondary-500">
                       <svg
@@ -164,16 +134,10 @@ export default function faq() {
                       </svg>
                     </div>
                   </summary>
-                  <div className="pb-4 font-sans text-secondary-500">
+                  <div className="p-4 font-sans text-secondary-500">
                     This is the second item's accordion body.
                   </div>
                 </details>
-                <Image
-                  src="/image/Line.png"
-                  alt="Menage"
-                  width={552.96}
-                  height={415.387}
-                />
               </div>
               <div className="max-w-4xl">
                 <Image
@@ -187,7 +151,7 @@ export default function faq() {
             </div>
           </div>
         </div>
-      </main>
+      </section>
     </>
   );
 }

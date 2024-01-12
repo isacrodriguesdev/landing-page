@@ -5,9 +5,9 @@ export default function Peoples() {
     <>
       <section className="items-center 3sm:mt-40 2sm:py-20 3sm:py-0 2sm:mt-40 md:mt-0 flex justify-center place-items-center">
         <div className="h-fit xsm:py-80 3sm:py-40 w-full bg-[url('/image/saving.png')] bg-no-repeat bg-cover">
-          <h1 className="text-3xl py-6 text-white text-center flex justify-center">
+          <h3 className="text-3xl py-6 text-white text-center flex justify-center">
             Nossa forma de cuidar das pessoas
-          </h1>
+          </h3>
           <div className="flex justify-center 3sm:grid sm:flex gap-4">
             <div className="3sm:max-w-sm max-w-sm 3sm:p-2  lg:p-6 bg-white border border-gray-200 rounded-lg shadow">
               {/* Image

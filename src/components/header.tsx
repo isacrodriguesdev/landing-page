@@ -18,9 +18,9 @@ export default function Header() {
             <a href="" className="">
               <button
                 type="button"
-                className="self-center whitespace-nowrap py-4 px-4 3sm:px-2 justify-center inline-flex items-center text-lg 3sm:text-md font-bold rounded-lg bg-gradient-to-l from-secundary to-terciary text-white"
+                className="self-center whitespace-nowrap py-3 px-4 justify-center inline-flex items-center text-md 3sm:text-md font-semibold rounded-lg bg-black text-white"
               >
-                Solicitar Free-lancer
+                Solicitar free-lancer
               </button>
             </a>
           </div>

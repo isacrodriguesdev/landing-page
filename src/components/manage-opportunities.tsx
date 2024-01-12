@@ -16,9 +16,9 @@ export default function MenageOpportunities() {
               />
             </div>
             <div className="max-w-2xl ">
-              <h1 className="text-primary max-w-lg space-y-1 text-3xl font-bold mb-4 w-full">
+              <h3 className="text-primary max-w-lg space-y-1 text-3xl font-bold mb-4 w-full">
                 Gerencie suas oportunidades de forma simples e fácil
-              </h1>
+              </h3>
               <ul className="text-white text-md mb-6">
                 <li className="mb-2">
                   <p className="mb-2">Cadastre uma vaga de forma simples</p>

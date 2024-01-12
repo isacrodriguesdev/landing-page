@@ -3,12 +3,12 @@ import Image from "next/image";
 export default function Contract() {
   return (
     <>
-      <main className="bg-white h-fit xsm:mb-12">
-        <div className="flex items-center justify-center lg:mt-40">
+      <section className="bg-white h-fit xsm:mb-12">
+        <div className="flex items-center justify-center ]">
           <div className="3sm:ml-4 xsm:ml-4 2sm:ml-4 md:ml-0 col-span-6 xl:place-items-center lg:col-span-12 py-12">
-            <h1 className="text-black max-w-2xl xsm:text-xl 3sm:text-2xl 2sm:text-2xl font-semibold 3sm:text-center md:text-start mb-4 xl:text-5xl font-Orbitron tracking-tight leading-none md:text-5xl">
+            <h3 className="text-black max-w-2xl xsm:text-xl 3sm:text-2xl 2sm:text-2xl font-semibold 3sm:text-center md:text-start mb-4 xl:text-5xl font-Orbitron tracking-tight leading-none md:text-5xl">
               Encontre os melhores desenvolvedores para seu projeto
-            </h1>
+            </h3>
             <p className="max-w-2xl 3sm:text-xl font-sans xl:text-xl text-gray-400 lg:mb-8 md:text-lg lg:text-xl mt-8 mb-8">
               Conecte-se com milhares de profissionais de tecnologia e conte com o suporte dos nossos
               profissionais especializados para contratar as pessoas adequadas para a sua equipe.
@@ -59,14 +59,14 @@ export default function Contract() {
                 Redução de custo com contratação
               </li>
             </ul>
-            <div className="mt-8 xsm:justify-center flex 3sm:justify-center md:justify-start">
+            {/* <div className="mt-8 xsm:justify-center flex 3sm:justify-center md:justify-start">
               <a
                 href="#"
                 className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center rounded-lg bg-gradient-to-r from-secundary to-primary focus:ring-4 focus:ring-primary-300 text-white hover:text-white disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 transition-all"
               >
                 Solicitar Free-lancer ➔
               </a>
-            </div>
+            </div> */}
           </div>
           <div className="w-fit col-span-5 ml-20 flex lg:col-span-5 ">
             <Image
@@ -78,7 +78,7 @@ export default function Contract() {
             />
           </div>
         </div>
-      </main>
+      </section>
     </>
   );
 }
