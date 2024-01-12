@@ -18,7 +18,7 @@ export default function Card() {
               <a href="" className="">
                 <button
                   type="button"
-                  className="xsm:hidden lg:block whitespace-nowrap mt-8 py-4 px-4 inline-flex items-center text-md rounded-lg bg-white text-primary"
+                  className="xsm:hidden lg:block whitespace-nowrap mt-8 py-4 px-4 items-center text-md rounded-lg bg-primary text-white"
                 >
                   Experimente Grátis
                 </button>
