@@ -42,11 +42,11 @@ export default function SimpleForm() {
             <h1 className="text-white xsm:text-center mb-4 xsm:pt-10 lg:pt-0 2sm:text-center 3sm:text-xl 3sm:text-center md:text-start font-Orbitron tracking-tight leading-none xl:text-5xl md:text-3xl">
               Contrate de forma simples e prática
             </h1>
-            <p className="max-w-lg xsm:text-center font-sans 2sm:text-center xl:text-3xl text-gray-400 lg:mb-8 md:text-lg 3sm:text-center md:text-start lg:text-xl mt-8 mb-8">
+            <p className="xsm:text-center font-sans 2sm:text-center xl:text-2xl text-gray-400 lg:mb-8 md:text-lg 3sm:text-center md:text-start lg:text-xl my-8">
               Inicie hoje mesmo, de forma gratuita, anunciando uma vaga em nossa
               plataforma
             </p>
-            <div className="max-w-lg sm:gap-4 flex justify-around xsm:pb-10 lg:pb-0">
+            <div className="max-w-lg sm:gap-4 flex xsm:pb-10 lg:pb-0">
               <a
                 href="#"
                 className="inline-flex items-center xsm:px-0 2sm:px-1 justify-center px-10 3sm:px-3 py-5 text-sm font-medium text-center rounded-lg hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 bg-white text-secundary hover:text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 transition-all"
