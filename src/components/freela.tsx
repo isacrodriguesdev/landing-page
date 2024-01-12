@@ -14,7 +14,7 @@ export default function Freela() {
           />
           <div className="col-span-5 lg:mt-0 lg:col-span-5 lg:flex md:pt-14 lg:ml-0 lg:h-screen sm:h-fit">
             <div className="2sm:ml-4 xsm:ml-4 col-span-7 lg:ml-20 xl:ml-60 mr-auto place-self-center lg:col-span-12 3sm:ml-4 md:ml-0">
-              <h1 className="2sm:text-2xl xsm:text-xl text-primary font-semibold mb-4 xl:text-5xl 3sm:text-3xl font-Orbitron tracking-tight leading-none md:text-5xl">
+              <h1 className="2sm:text-2xl xsm:text-xl text-black font-semibold mb-4 xl:text-5xl 3sm:text-3xl font-Orbitron tracking-tight leading-none md:text-5xl">
                 Está com um projeto e necessita de um freelancer?
               </h1>
               <p className="max-w-2xl font-sans 3sm:text-xl xl:text-xl text-gray-400 lg:mb-8 md:text-lg lg:text-xl mt-8 mb-8">
