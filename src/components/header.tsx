@@ -7,7 +7,7 @@ export default function Header() {
         <div className="h-1/5 max-w-7xl flex xsm:gap-8 2xl:justify-between xl:justify-between lg:justify-around md:justify-around sm:justify-around justify-center 2sm:gap-20 md:gap-0 items-center mx-auto">
           <a href="/" className="flex items-center">
             <Image
-              src="/image/LogoPreta.png"
+              src="/image/LogoPreto.png"
               width={182}
               height={52}
               alt="Picture of the author"

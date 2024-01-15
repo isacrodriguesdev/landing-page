@@ -3,10 +3,9 @@ import Image from "next/image";
 export default function SimpleForm() {
   return (
     <>
-      <section className="bg-gradient-to-tr from-primary to-secundary relative isolate overflow-hidden h-fit">
-       
+      <section className="bg-gradient-to-tr from-primary to-secundary flex justify-between">
         <div className="flex lg:gap-8 xl:gap-0 lg:grid-cols-12">
-          <div className=" md:mb-10 lg:mb-0 lg:mt-0 lg:col-span-5 lg:flex">
+          <div className="md:mb-10 lg:mb-0 lg:mt-0 lg:col-span-5 lg:flex">
             <Image
               className="rotate-4 xsm:hidden lg:block"
               src="/image/women.png"
@@ -19,7 +18,7 @@ export default function SimpleForm() {
             <h3 className="text-white xsm:text-center mb-4 xsm:pt-10 lg:pt-0 2sm:text-center 3sm:text-xl 3sm:text-center md:text-start tracking-tight leading-none xl:text-6xl md:text-3xl">
               Contrate de forma simples e prática
             </h3>
-            <p className="xsm:text-center 2sm:text-center xl:text-2xl text-gray-400 lg:mb-8 md:text-2xl 3sm:text-center md:text-start lg:text-xl my-8">
+            <p className="xsm:text-center 2sm:text-center xl:text-2xl text-gray-300 lg:mb-8 md:text-2xl 3sm:text-center md:text-start lg:text-xl my-8">
               Inicie hoje mesmo, de forma gratuita, anunciando uma vaga em nossa
               plataforma
             </p>

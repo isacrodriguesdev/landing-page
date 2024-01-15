@@ -8,7 +8,7 @@ import Faq from "@/components/otherComponents/faq";
 import SimpleForm from "@/components/simple-form";
 import MenageOpportunities from "@/components/manage-opportunities";
 import Peoples from "@/components/Peoples";
-import NewsLetter from "@/components/otherComponents/newsLestter";
+import NewsLetter from "@/components/otherComponents/news-lestter";
 import Footer from "@/components/otherComponents/footer";
 
 export default function Home() {

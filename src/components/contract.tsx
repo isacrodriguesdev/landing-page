@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function Contract() {
   return (
     <>
-      <section className="bg-white h-fit xsm:mb-12">
-        <div className="flex items-center justify-center ]">
+      <section className="bg-white h-fit xsm:mb-12 2xl:mt-20">
+        <div className="flex items-center justify-center">
           <div className="3sm:ml-4 xsm:ml-4 2sm:ml-4 md:ml-0 col-span-6 xl:place-items-center lg:col-span-12 py-12">
             <h3 className="text-black max-w-2xl xsm:text-xl 3sm:text-2xl 2sm:text-2xl font-semibold 3sm:text-center md:text-start mb-4 xl:text-5xl font-Orbitron tracking-tight leading-none md:text-5xl">
               Encontre os melhores desenvolvedores para seu projeto
