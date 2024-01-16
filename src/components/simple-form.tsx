@@ -25,13 +25,13 @@ export default function SimpleForm() {
             <div className="max-w-lg sm:gap-4 flex xsm:pb-10 lg:pb-0">
               <a
                 href="#"
-                className="inline-flex items-center xsm:px-0 2sm:px-1 justify-center px-10 3sm:px-3 py-5 text-sm font-medium text-center rounded-lg hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 bg-white text-secundary hover:text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 transition-all"
+                className="inline-flex items-center xsm:px-0 2sm:px-1 justify-center px-10 3sm:px-3 py-5 text-sm font-medium text-center rounded-lg hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 bg-white text-secundary hover:text-white hover:bg-black disabled:opacity-50 disabled:pointer-events-none  transition-all"
               >
-                Publicar uma vaga ➔
+                Solicitar free-lancer
               </a>
               <a
                 href="#"
-                className="inline-flex items-center xsm:px-0 2sm:px-1 justify-center px-10 3sm:px-3 py-5 text-sm font-medium text-center rounded-lg bg-gray-700 text-white hover:bg-secundary disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 transition-all"
+                className="inline-flex items-center xsm:px-0 2sm:px-1 justify-center px-10 3sm:px-3 py-5 text-sm font-medium text-center rounded-lg bg-black text-white hover:bg-black disabled:opacity-50 disabled:pointer-events-none transition-all"
               >
                 Fale com a gente
               </a>

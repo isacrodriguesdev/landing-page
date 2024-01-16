@@ -15,13 +15,7 @@ export default function Banner() {
           <div className="flex xsm:justify-center lg:justify-normal lg:mb-0 xsm:mb-4 md:mb-8">
             <a
               href="#"
-              className="lg:ml-5 3sm:px-1 2sm:px-1 3sm:text-sm xsm:px-1 xsm:text-sm inline-flex items-center justify-center 2sm:text-sm py-3 md:px-3 md:text-sm mr-3 text-base font-medium text-center rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 bg-white text-secundary hover:text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 transition-all"
-            >
-              Publicar uma vaga ➔
-            </a>
-            <a
-              href="#"
-              className="lg:ml-2 2sm:px-1 2sm:py-1 inline-flex xsm:px-1 xsm:text-sm items-center justify-center md:px-3 md:text-sm text-base font-medium text-center rounded-lg bg-gray-700 text-white hover:bg-secundary disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 transition-all"
+              className="lg:ml-5 3sm:px-1 2sm:px-1 3sm:text-sm xsm:px-1 xsm:text-sm inline-flex items-center justify-center 2sm:text-sm py-3 md:px-3 md:text-sm text-base font-medium text-center rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 bg-white text-secundary hover:text-white hover:bg-black disabled:opacity-50 disabled:pointer-events-none transition-all"
             >
               Fale com a gente
             </a>
