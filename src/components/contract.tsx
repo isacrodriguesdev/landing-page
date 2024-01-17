@@ -7,11 +7,10 @@ export default function Contract() {
         <div className="flex items-center justify-center">
           <div className="3sm:ml-4 xsm:ml-4 2sm:ml-4 md:ml-0 col-span-6 xl:place-items-center lg:col-span-12 py-12">
             <h3 className="text-black max-w-2xl xsm:text-xl 3sm:text-2xl 2sm:text-2xl font-semibold 3sm:text-center md:text-start mb-4 xl:text-5xl font-Orbitron tracking-tight leading-none md:text-5xl">
-              Encontre os melhores desenvolvedores para seu projeto
+              Contrate de forma simples
             </h3>
             <p className="max-w-2xl 3sm:text-xl font-sans xl:text-xl text-gray-400 lg:mb-8 md:text-lg lg:text-xl mt-8 mb-8">
-              Conecte-se com milhares de profissionais de tecnologia e conte com o suporte dos nossos
-              profissionais especializados para contratar as pessoas adequadas para a sua equipe.
+              Inicie hoje gratuitamente a solicitação de um freelancer para sua empresa ou projeto
             </p>
             <ul className="max-w-md space-y-1 text-gray-500 list-inside dark:text-gray-400">
               <li className="flex items-center font-sans text-xl py-2">
@@ -23,7 +22,7 @@ export default function Contract() {
                 >
                   <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
                 </svg>
-                Recrutamento Assertivo
+                Recrutamento assertivo
               </li>
               <li className="flex items-center font-sans text-xl py-2">
                 <svg
@@ -34,7 +33,7 @@ export default function Contract() {
                 >
                   <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
                 </svg>
-                Processo ágil
+                Redução de turnover
               </li>
               <li className="flex items-center font-sans py-2 text-xl">
                 <svg
@@ -45,7 +44,7 @@ export default function Contract() {
                 >
                   <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
                 </svg>
-                Inteligência Artificial aplicada no R&S
+                Suporte especializado
               </li>
               <li className="flex items-center font-sans py-2 text-xl">
                 <svg
@@ -64,7 +63,7 @@ export default function Contract() {
                 href="#"
                 className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center rounded-lg bg-gradient-to-r from-secundary to-primary focus:ring-4 focus:ring-primary-300 text-white hover:text-white disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 transition-all"
               >
-                Solicitar Free-lancer ➔
+                Solicitar free-lancer ➔
               </a>
             </div> */}
           </div>

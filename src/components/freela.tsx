@@ -8,18 +8,17 @@ export default function Freela() {
           <div className="lg:mt-0 lg:flex lg:ml-0 lg:h-fill sm:h-fit 3sm:ml-4 xsm:ml-4 2sm:ml-4 md:ml-0 col-span-6 xl:place-items-center lg:col-span-12">
             <Image
               className="lg:object-contain xsm:hidden lg:block"
-              src="/image/moçaWorkeHub.png"
+              src="/image/image2.png"
               alt="Mulher"
               width={600}
               height={300}
             />
             <div className="2sm:ml-4 xsm:ml-4 max-w-2xl col-span-7 md:ml-0 lg:ml-20 xl:ml-40 mr-auto place-self-center lg:col-span-12 3sm:ml-4">
               <h3 className="2sm:text-2xl xsm:text-xl text-black font-semibold mb-4 xl:text-5xl 3sm:text-3xl font-Orbitron tracking-tight leading-none md:text-5xl">
-                Está com um projeto e necessita de um freelancer?
+                Negocie com os melhores freelancers
               </h3>
               <p className="max-w-2xl font-sans 3sm:text-xl xl:text-xl text-gray-400 lg:mb-8 md:text-lg lg:text-xl mt-8 mb-8">
-                Contrate em poucos minutos um freelancer para um projeto em
-                específico para você ou sua empresa.
+                Receba propostas de profissionais qualificados e escolha o melhor para o seu projeto
               </p>
               <ul className="max-w-lg space-y-1 text-gray-500 list-inside dark:text-gray-400">
                 <li className="flex items-center xl:text-xl font-sans py-2 md:text-2xl 3sm:text-lg">
@@ -42,7 +41,7 @@ export default function Freela() {
                   >
                     <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
                   </svg>
-                  Escolha um freelancer
+                  Negocie com os profissionais
                 </li>
                 <li className="flex items-center xl:text-xl font-sans py-2 md:text-2xl 3sm:text-lg">
                   <svg
@@ -53,7 +52,7 @@ export default function Freela() {
                   >
                     <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
                   </svg>
-                  Negocie com os profissionais
+                  Escolha um freelancer
                 </li>
                 <li className="flex items-center xl:text-xl font-sans py-2 md:text-2xl 3sm:text-lg">
                   <svg

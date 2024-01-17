@@ -6,7 +6,7 @@ const font = Montserrat({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'WorkeHub',
-  description: 'Free-lancer',
+  description: 'Freelancer',
 }
 
 export default function RootLayout({

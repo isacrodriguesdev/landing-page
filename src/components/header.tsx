@@ -20,7 +20,7 @@ export default function Header() {
                 type="button"
                 className="self-center whitespace-nowrap py-3 px-4 justify-center inline-flex items-center text-md 3sm:text-md font-semibold rounded-lg bg-black text-white"
               >
-                Solicitar free-lancer
+                Solicitar freelancer
               </button>
             </a>
           </div>
