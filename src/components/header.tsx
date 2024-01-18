@@ -3,8 +3,9 @@ import Image from "next/image";
 export default function Header() {
   return (
     <>
-      <nav className="bg-white border-gray-200 h-1/2">
-        <div className="h-1/5 max-w-7xl flex xsm:gap-8 2xl:justify-between xl:justify-between lg:justify-around md:justify-around sm:justify-around justify-center 2sm:gap-20 md:gap-0 items-center mx-auto">
+      <nav className="bg-white border-gray-200">
+        <div className="flex items-center justify-center 2xl:justify-between xsm:gap-14 sm:gap-0 xl:justify-between lg:justify-around md:justify-around 3sm:justify-around xl:px-40 h-24">
+          <div className="xsm:hidden md:block">
           <a href="/" className="flex items-center">
             <Image
               src="/image/LogoPreto.png"
@@ -14,7 +15,19 @@ export default function Header() {
               className="lg:justify-between rounded-xl"
             />
           </a>
-          <div className="h-20 md:block md:w-auto justify-center content-center mt-5" id="navbar-default">
+          </div>
+          <div className="xsm:block md:hidden">
+          <a href="/" className="flex items-center">
+            <Image
+              src="/image/iconePreto.png"
+              width={52}
+              height={52}
+              alt="Picture of the author"
+              className="lg:justify-between rounded-xl"
+            />
+          </a>
+          </div>
+          <div className="md:block md:w-auto justify-center content-center ">
             <a href="" className="">
               <button
                 type="button"

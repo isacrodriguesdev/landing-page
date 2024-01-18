@@ -6,8 +6,8 @@ export default function Contract() {
       <section className="bg-white flex item-center sm:h-fit 3sm:h-fill lg:h-fill justify-center py-10">
         <div className="flex max-w-2xl grid-cols-1 lg:max-w-none xl:grid-cols lg:gap-8 xl:gap-0 2sm:h-fit 3sm:h-fit lg:grid-cols-12">
           <div className="lg:mt-0 lg:flex lg:ml-0 lg:h-fill sm:h-fit md:ml-0 xl:place-items-center">
-            <div className="2sm:ml-4 xsm:ml-4 max-w-2xl col-span-7 md:ml-0 lg:ml-20 xl:ml-40 mr-auto place-self-center 3sm:ml-4">
-              <h3 className="2sm:text-2xl xsm:text-xl lg:text-start xsm:text-center text-black font-semibold mb-4 xl:text-5xl 3sm:text-3xl font-Orbitron tracking-tight leading-none md:text-5xl">
+            <div className="xsm:px-2 md:px-0 lg:ml-10 xl:ml-0 max-w-2xl col-span-7 mr-auto place-self-center">
+              <h3 className="2sm:text-2xl xsm:text-xl lg:text-start xsm:text-start text-black font-semibold mb-4 xl:text-5xl 3sm:text-3xl font-Orbitron tracking-tight leading-none md:text-5xl">
                 Contrate de forma simples
               </h3>
               <p className="max-w-2xl font-sans 3sm:text-xl xl:text-xl text-gray-400 lg:mb-8 md:text-lg lg:text-xl mt-8 mb-8">
@@ -15,7 +15,7 @@ export default function Contract() {
                 sua empresa ou projeto
               </p>
               <ul className="max-w-lg space-y-1 text-gray-500 list-inside dark:text-gray-400">
-                <li className="flex items-center xl:text-xl font-sans py-2 md:text-2xl 3sm:text-lg">
+                <li className="flex items-center xl:text-xl font-sans py-2 md:text-xl 3sm:text-lg">
                   <svg
                     className="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0"
                     aria-hidden="true"
@@ -26,7 +26,7 @@ export default function Contract() {
                   </svg>
                   Recrutamento assertivo
                 </li>
-                <li className="flex items-center xl:text-xl font-sans py-2 md:text-2xl 3sm:text-lg">
+                <li className="flex items-center xl:text-xl font-sans py-2 md:text-xl 3sm:text-lg">
                   <svg
                     className="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0"
                     aria-hidden="true"
@@ -37,7 +37,7 @@ export default function Contract() {
                   </svg>
                   Redução de turnover
                 </li>
-                <li className="flex items-center xl:text-xl font-sans py-2 md:text-2xl 3sm:text-lg">
+                <li className="flex items-center xl:text-xl font-sans py-2 md:text-xl 3sm:text-lg">
                   <svg
                     className="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0"
                     aria-hidden="true"
@@ -48,7 +48,7 @@ export default function Contract() {
                   </svg>
                   Suporte especializado
                 </li>
-                <li className="flex items-center xl:text-xl font-sans py-2 md:text-2xl 3sm:text-lg">
+                <li className="flex items-center xl:text-xl font-sans py-2 md:text-xl 3sm:text-lg">
                   <svg
                     className="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0"
                     aria-hidden="true"
@@ -61,7 +61,7 @@ export default function Contract() {
                 </li>
               </ul>
             </div>
-            <div className="w-fit col-span-5 lg:ml-20 flex lg:col-span-5 ">
+            <div className="w-fit col-span-5 lg:ml-20 flex lg:col-span-5 md:mr-6 xl:mr-0">
               <Image
                 className="lg:object-contain xsm:hidden lg:block"
                 src="/image/contract.png"
