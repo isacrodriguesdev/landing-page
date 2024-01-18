@@ -3,9 +3,9 @@ import Image from "next/image";
 export default function Freela() {
   return (
     <>
-      <section className="bg-white flex item-center sm:h-fit 3sm:h-fill lg:h-fill justify-center py-20">
+      <section className="bg-white flex item-center sm:h-fit 3sm:h-fill lg:h-fill justify-center py-10">
         <div className="flex max-w-2xl grid-cols-1 lg:max-w-none xl:grid-cols lg:gap-8 xl:gap-0 2sm:h-fit 3sm:h-fit lg:grid-cols-12">
-          <div className="lg:mt-0 lg:flex lg:ml-0 lg:h-fill sm:h-fit 3sm:ml-4 xsm:ml-4 2sm:ml-4 md:ml-0 col-span-6 xl:place-items-center lg:col-span-12">
+          <div className="lg:mt-0 lg:flex lg:ml-0 lg:h-fill sm:h-fit md:ml-0 col-span-6 xl:place-items-center lg:col-span-12">
             <Image
               className="lg:object-contain xsm:hidden lg:block"
               src="/image/image2.png"
@@ -13,8 +13,8 @@ export default function Freela() {
               width={600}
               height={300}
             />
-            <div className="2sm:ml-4 xsm:ml-4 max-w-2xl col-span-7 md:ml-0 lg:ml-20 xl:ml-40 mr-auto place-self-center lg:col-span-12 3sm:ml-4">
-              <h3 className="2sm:text-2xl xsm:text-xl text-black font-semibold mb-4 xl:text-5xl 3sm:text-3xl font-Orbitron tracking-tight leading-none md:text-5xl">
+            <div className="2sm:ml-4 xsm:ml-4 max-w-2xl col-span-7 md:ml-0 lg:ml-20 xl:ml-40 mr-auto place-self-center 3sm:ml-4">
+              <h3 className="2sm:text-2xl xsm:text-xl text-black font-semibold mb-4 lg:text-start xsm:text-center xl:text-5xl 3sm:text-3xl font-Orbitron tracking-tight leading-none md:text-5xl">
                 Negocie com os melhores freelancers
               </h3>
               <p className="max-w-2xl font-sans 3sm:text-xl xl:text-xl text-gray-400 lg:mb-8 md:text-lg lg:text-xl mt-8 mb-8">
