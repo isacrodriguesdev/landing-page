@@ -2,10 +2,10 @@ export default function Card() {
   return (
     <>
       <section className="bg-black flex justify-center items-center xsm:pt-40 2sm:pt-0">
-        <div className="sm:grid lg:flex relative isolate overflow-hidden pt-20 bg-black rounded-xl mx-auto xl:max-w-7xl lg:max-w-5xl px-10 lg:px-8">
+        <div className="sm:grid lg:flex relative isolate overflow-hidden pt-10 bg-black rounded-xl mx-auto xl:max-w-7xl lg:max-w-5xl px-10 lg:px-8">
           <div className="mx-auto max-w-4xl px-6 lg:px-8 justify-center place-self-center">
             <div className="mx-auto max-w-4xl lg:mx-0">
-              <h3 className="text-4xl tracking-tight sm:text-center 3sm:text-center md:text-start lg:text-start text-white sm:text-6xl">
+              <h3 className="text-4xl tracking-tight font-semibold sm:text-center 3sm:text-center md:text-start lg:text-start text-white sm:text-6xl">
                 Por que escolher a WorkeHub?
               </h3>
               <p className="mt-6 text-lg leading-8 text-gray-300 font-sans">
@@ -16,10 +16,9 @@ export default function Card() {
                 profissionais certos para as suas oportunidades.
               </p>
             </div>
-            <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none"></div>
           </div>
 
-          <div className="px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+          <div className="px-4 sm:px-6 lg:px-8 mx-auto pt-14">
             <ol className="relative text-gray-500 border-s border-gray-200 dark:border-gray-700">
               <li className="mb-16 ms-8 ">
                 <span className="absolute text-secundary flex items-center justify-center w-10 h-10 rounded-full -start-5 bg-gray-900">

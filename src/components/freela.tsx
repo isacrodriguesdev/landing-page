@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { motion } from "framer-motion"
 
 export default function Freela() {
   return (
@@ -8,8 +7,8 @@ export default function Freela() {
         <div className="flex max-w-2xl grid-cols-1 lg:max-w-none xl:grid-cols lg:gap-8 xl:gap-0 2sm:h-fit 3sm:h-fit lg:grid-cols-12">
           <div className="xsm:px-2 md:px-0 lg:mt-0 lg:flex lg:ml-0 lg:h-fill sm:h-fit md:ml-0 col-span-6 xl:place-items-center lg:col-span-12">
             <Image
-              className="lg:object-contain xsm:hidden lg:block"
-              src="/image/image2.png"
+              className="object-contain xsm:hidden lg:block"
+              src="/image/homem.png"
               alt="Mulher"
               width={600}
               height={300}

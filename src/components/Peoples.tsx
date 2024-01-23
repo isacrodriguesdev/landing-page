@@ -4,13 +4,13 @@ import { FileText, FileCode, FilePieChart, Code2 } from "lucide-react";
 export default function Peoples() {
   return (
     <>
-      <section className="items-center 2sm:py-20 3sm:py-0 md:mt-0 flex justify-center place-items-center">
-        <div className="h-fit xsm:py-20 3sm:py-40 w-full bg-[url('/image/saving.png')] bg-no-repeat bg-cover">
+      <section className="items-center 2sm:py-20 bg-black 3sm:py-0 md:mt-0 flex justify-center place-items-center">
+        <div className="h-fit w-full">
           <div className="content-center">
-            <h3 className="text-3xl py-6 text-white text-center flex justify-center">
+            <h3 className="text-3xl py-10 text-white font-bold text-center flex justify-center">
               Nossa forma de cuidar das pessoas
             </h3>
-            <div className="flex justify-center sm:grid-cols-2 lg:flex xsm:grid gap-4">
+            <div className="flex justify-center sm:grid-cols-2 lg:flex xsm:grid gap-4 mb-16">
               <div className="bg-white rounded-xl 3sm:block xsm:p-4 lg:p-6">
                 <div className="3sm:max-w-sm flex-col flex max-w-sm 3sm:p-2 rounded-lg">
                   <div className="flex flex-row">
