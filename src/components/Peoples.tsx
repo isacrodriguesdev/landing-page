@@ -55,9 +55,9 @@ export default function Peoples() {
                       {icon()}
                     </div>
                     <div className="flex flex-row items-center mt-2">
-                      <h5 className="ml-2 text-md font-sans font-semibold tracking-tight text-black">
+                      <h4 className="ml-2 text-lg font-sans font-semibold tracking-tight text-black">
                         {title}
-                      </h5>
+                      </h4>
                     </div>
                     <p className="3sm:text-md font-sans ml-2 text-black mt-2 ">{description}</p>
                   </div>

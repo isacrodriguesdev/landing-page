@@ -37,7 +37,7 @@ export default function Freela({ title, description, image, inverted, items }: P
           <div className="flex flex-wrap gap-3 flex-col w-2/3">
             {items.map((item) => (
               <span
-                className="inline-flex items-center w-fit rounded-full bg-gray-50 px-3 py-1.5 text-xs font-medium text-gray-400 ring-1 ring-inset ring-gray-500/10"
+                className="inline-flex items-center w-fit rounded-full bg-gray-50 px-3 py-1.5 text-xs font-medium text-gray-500 ring-1 ring-inset ring-gray-500/10"
                 key={item}
               >
                 <svg
