@@ -1,14 +1,10 @@
-import Contract from "@/components/contract";
 import Header from "@/components/header";
 import Banner from "@/components/banner";
 import Card from "@/components/card";
-import Carousel from "@/components/carousel";
 import Freela from "@/components/freela";
 import Faq from "@/components/otherComponents/faq";
 import SimpleForm from "@/components/simple-form";
-import MenageOpportunities from "@/components/manage-opportunities";
 import Peoples from "@/components/Peoples";
-import NewsLetter from "@/components/otherComponents/news-lestter";
 import Footer from "@/components/otherComponents/footer";
 
 export default function Home() {
@@ -17,14 +13,33 @@ export default function Home() {
       <Header />
       <Banner />
       <main>
-        <Contract />
-        <Carousel />
-        <Freela />
+        <Freela
+          title="Profissionais qualificados"
+          description="Todos os freelancers passam por um processo de avaliação e validação de perfil para garantir a qualidade do serviço"
+          image="/image/contract.png"
+          items={[
+            "Avaliação de perfil",
+            "Analise de portfólio",
+            "Validação de habilidades técnicas",
+            "Referências de trabalhos anteriores",
+          ]}
+        />
+
+        <Freela
+          title="Contrate de forma simples"
+          description="Simplifique o processo de contratação de freelancers para sua empresa ou projeto"
+          image="/image/homem.png"
+          inverted
+          items={[
+            "Solicite um freelancer",
+            "Receba propostas",
+            "Negocie valores e prazos",
+            "Inicie o projeto",
+          ]}
+        />
+
         <Card />
         <Peoples />
-        {/* <Feedbacks /> */}
-        {/* <MenageOpportunities /> */}
-        {/* <NewsLetter /> */}
         <Faq />
         <SimpleForm />
       </main>

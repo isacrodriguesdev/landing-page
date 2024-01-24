@@ -19,24 +19,27 @@ export default function Card() {
           </div>
 
           <div className="px-4 sm:px-6 lg:px-8 mx-auto pt-14">
-            <ol className="relative text-gray-500 border-s border-gray-200 dark:border-gray-700">
-              <li className="mb-16 ms-8 ">
-                <span className="absolute text-secundary flex items-center justify-center w-10 h-10 rounded-full -start-5 bg-gray-900">
+            <ol className="relative text-gray-700 border-s border-gray-200 dark:border-gray-700">
+              
+              <li className="mb-16 ms-8">
+                <span className="absolute text-secundary text-bold flex items-center justify-center w-10 h-10 rounded-full -start-5 bg-gray-900">
                   1
                 </span>
-                <p className="text-md text-gray-400">Recrutamento e Seleção realizado por profissionais de RH e tecnologia</p>
+                <p className="text-md text-gray-300">Recrutamento e Seleção realizado por profissionais de RH e tecnologia</p>
               </li>
+
               <li className="mb-16 ms-8">
-                <span className="absolute text-secundary flex items-center justify-center w-10 h-10 rounded-full -start-5 bg-gray-900">
+                <span className="absolute text-secundary text-bold flex items-center justify-center w-10 h-10 rounded-full -start-5 bg-gray-900">
                   2
                 </span>
-                <p className="text-md text-gray-400">Cuidamos de todo o processo de R&S desde a pré-seleção até a negociação   </p>
+                <p className="text-md text-gray-300">Cuidamos de todo o processo de R&S desde a pré-seleção até a negociação   </p>
               </li>
+
               <li className="mb-16 ms-8">
-                <span className="absolute text-secundary flex items-center justify-center w-10 h-10 rounded-full -start-5 bg-gray-900">
+                <span className="absolute text-secundary text-bold flex items-center justify-center w-10 h-10 rounded-full -start-5 bg-gray-900">
                   3
                 </span>
-                <p className="text-md text-gray-400">Tecnologia aplicada ao processo de R&S com uso da Inteligência Artificial</p>
+                <p className="text-md text-gray-300">Tecnologia aplicada ao processo de R&S com uso da Inteligência Artificial</p>
               </li>
             </ol>
           </div>

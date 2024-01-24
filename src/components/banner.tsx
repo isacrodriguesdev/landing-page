@@ -5,7 +5,7 @@ export default function Banner() {
   return (
     <div className="w-full bg-gradient-to-tr from-primary to-secundary xsm:py-20 lg:py-0">
       <div className="grid 2sm:px-4 3sm:px-4 md:px-0 lg:gap-8 xl:gap-0 lg:grid-cols-12 justify-center">
-        <div className="xl:max-w-3xl lg:ml-2 xsm:px-4 mr-auto place-self-center lg:col-span-7 ">
+        <div className="xl:max-w-3xl lg:ml-2 xsm:px-4 mr-auto place-self-center lg:col-span-7 w-10/12">
           <h1 className="lg:ml-5 xsm:text-center xsm:text-xl xsm:font-bold md:mt-8 lg:mt-0 sm:text-center 2sm:text-2xl 3sm:text-3xl xl:text-5xl lg:text-start text-white mb-4 font-Orbitron tracking-tight leading-none lg:text-4xl md:text-4xl">
             Encontre os melhores desenvolvedores para seu projeto
           </h1>
