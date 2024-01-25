@@ -7,7 +7,7 @@ export default function Footer() {
       <footer className="bg-dark w-full py-10 px-4 sm:px-6 lg:px-8">
         <div className="flex md:justify-between items-center xsm:grid xsm:justify-center md:flex">
           <div className="space-x-4 ">
-            <a className="inline-flex text-sm gap-x-2 text-gray-300" href="#">
+            <a className="inline-flex gap-x-2 text-gray-300" href="#">
               Termos
             </a>
             <a className="inline-flex gap-x-2 text-gray-300" href="#">

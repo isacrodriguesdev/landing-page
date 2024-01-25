@@ -18,8 +18,8 @@ export default function SimpleForm() {
             <h3 className="text-white xsm:px-2 sm:px-0 xsm:text-lg xsm:font-bold xsm:text-center mb-4 xsm:pt-10 lg:pt-0 2sm:text-center 3sm:text-xl 3sm:text-center md:text-start tracking-tight leading-none xl:text-6xl md:text-3xl">
               Contrate de forma simples e prática
             </h3>
-            <p className="xsm:text-center 2sm:text-center xl:text-2xl text-gray-300 lg:mb-8 md:text-2xl xsm:px-2 3sm:px-0 3sm:text-center md:text-start lg:text-xl my-8">
-              Inicie hoje mesmo, de forma gratuita, a solicitação de um freelancer para sua empresa ou projeto
+            <p className="xsm:text-center 2sm:text-center xl:text-2xl text-gray-200 lg:mb-8 md:text-2xl xsm:px-2 3sm:px-0 3sm:text-center md:text-start lg:text-xl my-8">
+              Inicie hoje mesmo, de forma gratuita, a solicitação de um freelancer para atender suas demandas
             </p>
             <div className="lg:max-w-lg sm:gap-4 md:justify-normal xsm:justify-center xsm:gap-4 flex xsm:pb-10 lg:pb-0">
               <a

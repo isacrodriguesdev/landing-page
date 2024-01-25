@@ -12,7 +12,7 @@ export default function Home() {
     <>
       <Header />
       <Banner />
-      <main>
+      <main className="max-w-7xl mx-auto">
         <Freela
           title="Profissionais qualificados"
           description="Todos os freelancers passam por um processo de avaliação e validação de perfil para garantir a qualidade do serviço"
@@ -37,12 +37,12 @@ export default function Home() {
             "Inicie o projeto",
           ]}
         />
-
+        
+      </main>
         <Card />
         <Peoples />
         <Faq />
         <SimpleForm />
-      </main>
       <Footer />
     </>
   );
