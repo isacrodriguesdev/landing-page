@@ -20,21 +20,17 @@ export default function SimpleForm() {
               Contrate de forma simples e prática
             </h3>
             <p className="xsm:text-center 2sm:text-center xl:text-2xl text-gray-200 lg:mb-8 md:text-2xl xsm:px-2 3sm:px-0 3sm:text-center md:text-start lg:text-xl my-8">
-              Inicie hoje mesmo, de forma gratuita, a solicitação de um freelancer para atender suas demandas
+              Inicie hoje mesmo, de forma gratuita, a solicitação de um
+              freelancer para atender suas demandas
             </p>
             <div className="lg:max-w-lg sm:gap-4 md:justify-normal xsm:justify-center xsm:gap-4 flex xsm:pb-10 lg:pb-0">
-              <a
-                href="#"
-                className="inline-flex items-center xsm:px-2 2sm:px-1 justify-center px-10 3sm:px-3 py-5 text-sm font-medium text-center rounded-lg hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 bg-white text-secundary hover:text-white hover:bg-black disabled:opacity-50 disabled:pointer-events-none  transition-all"
-              >
-                Solicitar freelancer
-              </a>
-              <Button Children={undefined}>
-              <a
-                href="#"
-              >
-                Fale com a gente
-              </a>
+              <Button Children={undefined} color="white">
+                <a className="text-primary" href="#">
+                  Solicitar freelancer
+                </a>
+              </Button>
+              <Button Children={undefined} color={undefined}>
+                <a href="#">Fale com a gente</a>
               </Button>
             </div>
           </div>

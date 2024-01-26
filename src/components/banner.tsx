@@ -16,12 +16,12 @@ export default function Banner() {
             rede de talentos adaptados às suas necessidades
           </h2>
           <div className="flex xsm:justify-center lg:ml-5 lg:justify-normal lg:mb-0 xsm:mb-4 md:mb-8">
-            <Button Children={undefined}>
-            <a
+            <Button Children={undefined} color="white">
+             <a
               href="https://wa.me/message/MJDUYQ4X3SL7I1"
               target="_blank"
-              className=""
-            >
+              className="text-primary"
+             >
               Fale com a gente
             </a>
          </Button>
