@@ -1,5 +1,7 @@
 import Image from "next/image";
 import React from "react";
+import { Button } from "./Button";
+
 
 export default function Banner() {
   return (
@@ -13,14 +15,16 @@ export default function Banner() {
             Amplie sua empresa com agilidade e confiança. Conectamos você a uma
             rede de talentos adaptados às suas necessidades
           </h2>
-          <div className="flex xsm:justify-center lg:justify-normal lg:mb-0 xsm:mb-4 md:mb-8">
+          <div className="flex xsm:justify-center lg:ml-5 lg:justify-normal lg:mb-0 xsm:mb-4 md:mb-8">
+            <Button Children={undefined}>
             <a
               href="https://wa.me/message/MJDUYQ4X3SL7I1"
               target="_blank"
-              className="lg:ml-5 3sm:px-1 2sm:px-1 3sm:text-sm xsm:px-1 xsm:text-sm inline-flex items-center justify-center 2sm:text-sm py-3 md:px-3 md:text-sm text-base font-medium text-center rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 bg-white text-secundary hover:text-white hover:bg-black disabled:opacity-50 disabled:pointer-events-none transition-all"
+              className=""
             >
               Fale com a gente
             </a>
+         </Button>
           </div>
         </div>
         <div className="hidden lg:col-span-5 lg:flex justify-end">

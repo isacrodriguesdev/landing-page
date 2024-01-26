@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Button } from "./Button";
 
 export default function Header() {
   return (
@@ -29,12 +30,11 @@ export default function Header() {
           </div>
           <div className="md:block md:w-auto justify-center content-center ">
             <a href="" className="">
-              <button
+              <Button 
                 type="button"
-                className="self-center whitespace-nowrap py-3 px-4 justify-center inline-flex items-center text-md 3sm:text-md font-semibold rounded-lg bg-black text-white"
-              >
+                className="self-center whitespace-nowrap py-3 px-4 justify-center inline-flex items-center text-md 3sm:text-md font-semibold rounded-lg bg-black text-white" Children={undefined}              >
                 Solicitar freelancer
-              </button>
+              </Button>
             </a>
           </div>
         </div>
