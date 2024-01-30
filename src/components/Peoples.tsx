@@ -47,7 +47,7 @@ export default function Peoples() {
             <h3 className="text-3xl py-10 text-white font-bold text-center flex justify-center">
               Uma nova forma de contratar
             </h3>
-            <div className="flex justify-center sm:grid-cols-2 lg:flex xsm:grid gap-4 mb-16">
+            <div className="flex justify-center sm:grid-cols-2 w-9/12 mx-auto lg:flex xsm:grid gap-4 mb-16">
               {items.map(({ title, description, icon }) => (
                 <div className="bg-white rounded-xl 3sm:block xsm:p-3 lg:p-4" key={title}>
                   <div className="3sm:max-w-sm flex-col flex max-w-sm rounded-lg">

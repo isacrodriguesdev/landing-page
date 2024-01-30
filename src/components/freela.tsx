@@ -18,9 +18,9 @@ export default function Freela({
   items,
 }: Props) {
   return (
-    <section className="flex flex-col justify-center items-center my-24 w-full">
+    <section className="flex w-9/12 mx-auto flex-col justify-center items-center my-24">
       <div
-        className={`flex items-center 3xl:gap-72  ${
+        className={`flex items-center md:gap-0 xl:gap-52 ${
           inverted ? "flex-row" : "flex-row-reverse"
         }`}
       >
@@ -34,7 +34,7 @@ export default function Freela({
           />
         </div>
 
-        <div className="flex flex-col md:justify-center xsm:px-4">
+        <div className="flex flex-col md:justify-center xsm:px-4 lg:px-0">
           <div>
             <h3 className="2sm:text-3xl xsm:text-3xl xsm:text-start text-black font-semibold mb-4 lg:text-start xl:text-5xl 3sm:text-3xl font-Orbitron tracking-tight leading-none md:text-5xl">
               {title}
@@ -58,7 +58,7 @@ export default function Freela({
                 >
                   <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
                 </svg>
-                <div className="flex items-center xl:text-md font-sans md:text-md 3sm:text-lg">
+                <div className="flex items-center xl:text-md font-sans md:text-sm font-semibold 3sm:text-lg">
                   {item}
                 </div>
               </span>

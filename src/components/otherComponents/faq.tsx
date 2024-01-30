@@ -3,11 +3,11 @@ import Image from "next/image";
 export default function faq() {
   return (
     <>
-      <section className="flex bg-white justify-center aligm-center">
+      <section className="flex bg-white justify-center w-9/12 mx-auto h-full">
         <div className="flex mx-auto grid-cols-1 justify-center sm:gap-y-20 lg:mx-0 lg:max-w-none py-8 xl:grid-cols lg:gap-8 xl:gap-0 lg:grid-cols-12">
           <div className="flex justify-end">
             <div className="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12">
-              <div className="lg:mt-8 space-y-2 md:ml-0 h-fit max-w-lg lg:ml-20 rounded-md bg-white">
+              <div className="space-y-2 md:ml-0 h-fit max-w-md rounded-md bg-white">
                 <div className="mb-8 text-center">
                   <h3 className="xsm:text-xl text-2xl md:text-4xl md:leading-tight text-black font-semibold mb-1">
                     Perguntas frequentes
